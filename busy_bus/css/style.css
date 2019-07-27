@@ -19,22 +19,20 @@ body {
   font-weight: 400;
   letter-spacing: 1px;
   display: block;
-  height: 100%;
-  width: 100%;
-  height: 100%;
+  width: 375px;
+  height: 812px;
   text-align: center;
 }
 
 .container {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   border: 0px;
   margin: 0px;
   padding: 0px;
-  height: 900px;
+  height: 90px;
   width: 100%;
   display: inline-block;
 }
-
 
 h1 {
   width: 100%;
@@ -43,42 +41,97 @@ h1 {
   border: 0;
   text-align: center;
   color: white;
-  font-size: 1.2em;
+  font-size: 22px;
 }
 
-.status ul {
+#status ul {
   list-style-type: none;
-  margin: 0;
+  margin-left: 0;
   padding: 0;
   border: 0;
   display: flex;
   padding-top: 10px;
   justify-content: space-between;
+  height: 10px;
 }
 
-.nav ul {
+#nav ul {
   height: 20px;
   width: 100%;
   list-style-type: none;
-  margin-top: 5%;
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
 }
 
-.map {
-  margin: 0;
+#nav li {
+    margin-left: 8.5px;
+    margin-right: 9px;
+}
+
+.navigation {
+  background-color: black;
+  width: 100%;
+  height: 92.67px;
+}
+
+#map {
+  margin-top: 6%;
+  height: 0px;
   padding: 0;
-  height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.bus ul {
-  height: 20px;
+.container {
   width: 100%;
+  height: 801px;
+  background-color: white;
+  margin-top: 190px;
+}
+
+#rectangle {
+  width: 353px;
+  height: 474px;
+  background-color: #F7F7F7;
+  margin-left: 11px;
+  margin-right: 11px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+h2 {
+  font-size: 37px;
+  color: #DEBC00;
+  text-align: left;
+  margin-left: 13px;
+  margin-right: 26px;
+}
+
+p {
+  font-size: 14px;
+  color: #808080;
+  text-align: left;
+  margin-left: 13px;
+}
+
+#bus ul {
+  text-align: left;
+  color: black;
+  width: 330px;
   list-style-type: none;
-  margin-top: 5%;
+  margin-left: 13px;
+  margin-top: 40px;
   display: flex;
-  justify-content: space-between;
-  font-size: 1.2em;
+}
+
+.number {
+  margin-left: 8px;
+  margin-right: 150px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.fa-chevron-right {
+  color: #DEBC00;
 }
