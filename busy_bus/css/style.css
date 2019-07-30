@@ -18,7 +18,7 @@ body {
   letter-spacing: 1px;
   display: block;
   width: 375px;
-  height: 1128px;
+  height: 1140px;
 }
 
 #status ul {
@@ -82,13 +82,13 @@ h1 {
 .container {
   position: absolute;
   width: 375px;
-  height: 731px;
+  height: 875px;
   left: 0%;
   right: 0%;
   top: 300px;
   bottom: 8.78%;
   background: #ffffff;
-  box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.161);
+  box-shadow: 0px -15px 10px rgba(0, 0, 0, 0.161);
 }
 
 
@@ -129,6 +129,8 @@ table.bus-information caption, table.service-alerts caption {
   text-align: left;
 }
 
+
+
 #tdNumber2 {
   color: rgba(255, 0, 0, 0.65);
 }
@@ -161,7 +163,12 @@ table.bus-information caption, table.service-alerts caption {
   font-family: sf pro display;
 }
 
-#tdLocation, #tdLocationlast {
+#tdResult, #tdResultlast {
+  padding-right: 42px;
+}
+
+
+#tdLocation, #tdLocationlast, #tdLocation2 {
   padding-left: 15px;
   color: #808080;
   font-family: SF Pro Display;
@@ -174,4 +181,10 @@ table.bus-information caption, table.service-alerts caption {
 
 #tdResultlast, #tdAlertlast, #tdLocationlast, #tdFrequencylast {
   padding-bottom: 15px;
+  margin-bottom: 5px;
+}
+
+#tdLocation, #tdFrequency, #tdArrow, #tdResult, #tdAlert {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #DCDCDC;
 }
