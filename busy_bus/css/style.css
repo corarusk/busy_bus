@@ -9,19 +9,16 @@
   outline: none;
 }
 
-
 body {
-  background-color: rgb(214, 214, 214);
+  background-color: white;
   overflow: hidden;
-  color: #808080;
   font-size: 12px;
   font-family: sf pro display;
   font-weight: 500;
   letter-spacing: 1px;
   display: block;
   width: 375px;
-  height: 812px;
-  text-align: center;
+  height: 1128px;
 }
 
 #status ul {
@@ -46,7 +43,6 @@ body {
   display: flex;
   justify-content: space-between;
   height: 20px;
-
 }
 
 #nav li {
@@ -54,7 +50,7 @@ body {
     margin-right: 9px;
 }
 
-
+/* Washington & State */
 h1 {
   width: 100%;
   margin: 0;
@@ -64,7 +60,7 @@ h1 {
   color: white;
   font-family: SF Pro Text;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 22px;
 }
 
@@ -74,110 +70,108 @@ h1 {
   height: 92.67px;
 }
 
-#map {
+.map {
   margin-top: 20px;
-  height: 25px;
+  height: 300px;
   width: 375px;
   padding: 0;
   background-repeat: no-repeat;
 }
 
-
-/* bus information */
+  /* White background */
 .container {
-  background-color: rgb(255, 255, 255);
-  border: 0px;
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-  display: inline-block;
-  height: 950px;
-  background-color: white;
-  margin-top: 190px;
+  position: absolute;
+  width: 375px;
+  height: 731px;
+  left: 0%;
+  right: 0%;
+  top: 300px;
+  bottom: 8.78%;
+  background: #ffffff;
   box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.161);
 }
 
-/* Next Arrivals */
-h3 {
-  font-size: 12px;
-  color: #000000;
-  text-align: left;
-  margin-left: 12px;
-  font-weight: bold;
-  margin-top: 23px;
-  margin-bottom: 11px;
-}
 
-td, th {
-  text-align: left;
-  color: #808080;
-  width: 100%;
-  list-style-type: none;
-  margin-left: 10px;
-  margin-top: 0px;
-  font-size: 12px;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 45%;
-}
-
-/* Bus Number */
-th {
-  font-weight: bold;
-  font-size: 22px;
-  color: black;
-}
-
-
-/* Direction */
-h2 {
-  font-weight: 800px;
-  font-size: 12px;
-  font-family: SF Pro Text;
-  color: black;
-}
-
-.fa-chevron-right {
-  color: #808080;
-  padding-right: 0px;
-}
-
-.fa-arrow-circle-right {
-  height: 9px;
-  display: flex;
-  color: black;
-}
-
-table {
-  width: 353px;
-  height: 474px;
-  background-color: #F7F7F7;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  border-radius: 20px;
-}
-
-.time, .resumes {
-  text-align: right;
-}
-
-.resumes {
-  padding-right: 40px;
-}
-
-.service-alerts {
-  height: 298px;
-}
-
-.alert {
-  color: rgba(255, 0, 0, 0.65);
-}
-
+/* slide up */
 .rectangle {
   width: 35px;
   height: 1.89px;
   background: #CCCCCC;
   margin-left: 170px;
   margin-top: 10px;
+}
+
+
+/* bus information */
+table.bus-information, table.service-alerts {
+  width: 355px;
+  border-collapse: collapse;
+  border-style: hidden;
+  background-color: #fafafa;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  border-spacing: 23px;
+}
+
+table.bus-information caption, table.service-alerts caption {
+  text-align: left;
+  margin-top: 23px;
+  margin-bottom: 11px;
+  font-weight: 800;
+}
+
+#tdNumber, #tdNumber2 {
+  padding-left: 15px;
+  padding-top: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#tdNumber2 {
+  color: rgba(255, 0, 0, 0.65);
+}
+
+#tdCountdown {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 12px;
+}
+
+#tdDirection, #tdAlert, #tdAlertlast {
+  padding-left: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  font-family: sf pro text;
+}
+
+#tdAlert, #tdAlertlast {
+  color: #808080;
+}
+
+#tdTime, #tdFrequency, #tdResult, #tdResultlast, #tdFrequencylast {
+  font-size: 12px;
+  text-align: right;
+  padding-right: 20px;
+  color: #808080;
+  font-family: sf pro display;
+}
+
+#tdLocation, #tdLocationlast {
+  padding-left: 15px;
+  color: #808080;
+  font-family: SF Pro Display;
+}
+
+#tdArrow {
+  padding-right: 12px;
+  color: #808080;
+}
+
+#tdResultlast, #tdAlertlast, #tdLocationlast, #tdFrequencylast {
+  padding-bottom: 15px;
 }

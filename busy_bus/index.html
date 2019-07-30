@@ -22,111 +22,127 @@
           <li><h1>Washington & State</h1></li>
           <li><img src="images/search.png"></li>
       </div>
-      <div id="map">
-        <img src="images/map.png">
+
+      <div>
+        <img class="map" src="images/map.png">
       </div>
 
     <section class="container">
-      <div class="rectangle"><br></div>
-        <h3>Next Arrivals</h3>
+      <div class="rectangle"></div>
 
-
-        <table>
-          <tr>
-            <th>60</th>
-            <th class="time"><img src="images/signal.png">3 min</th>
-          <tr>
-            <td><h2>Eastbound<i class="fas fa-arrow-circle-right"></h2></td>
-            <td class="time">4:45 pm</td>
-            <td><i class="fas fa-chevron-right"></i></td>
-          <tr>
-            <td>Randolph/Harbor Dr</td>
-            <td class="time">every 20 minutes</td>
-
-          <tr>
-            <th>124</th>
-            <th class="time"><img src="images/signal.png">4 min</th>
-          <tr>
-            <td><h2>Eastbound<i class="fas fa-arrow-circle-right"></h2></td>
-            <td class="time">4:46 pm</td>
-            <td><i class="fas fa-chevron-right"></i></td>
-          <tr>
-            <td>Navy Pier</td>
-            <td class="time">every 10 minutes</td>
-
-          <tr>
-            <th>151</th>
-            <th class="time"><img src="images/signal.png">5 min</th>
-          <tr>
-            <td><h2>Northbound<i class="fas fa-arrow-circle-right"></h2></td>
-            <td class="time">4:47 pm</td>
-            <td><i class="fas fa-chevron-right"></i></td>
-          <tr>
-            <td>Devon/Clark</td>
-            <td class="time">every 16 minutes</td>
-
-          <tr>
-            <th>J14</th>
-            <th class="time"><img src="images/signal.png">6 min</th>
-          <tr>
-            <td><h2>Southbound<i class="fas fa-arrow-circle-right"></h2></td>
-            <td class="time">4:48 pm</td>
-            <td><i class="fas fa-chevron-right"></i></td>
-          <tr>
-            <td>103rd/Stony Island</td>
-            <td class="time">every 15 minutes</td>
-
-          <tr>
-            <th>124</th>
-            <th class="time"><img src="images/signal.png">10 min</th>
-          <tr>
-            <td>
-              <ul>
-                <h2>Southbound<i class="fas fa-arrow-circle-right"></h2></td>
-            <td class="time">5:52 pm</td>
-            <td class="chevron"><i class="fas fa-chevron-right"></i></td>
-          <tr>
-            <td>Navy Pier</td>
-            <td class="time">every 10 minutes</td>
-        </table>
-
-
-
-        <br><h3>Service Alerts</h3>
-          <table class="service-alerts">
+      <div id="main">
+      <table class="bus-information">
+          <caption>Next Arrivals</caption>
+          <tbody>
             <tr>
-              <th class="alert">6x</th>
+              <td id="tdNumber">60</td>
+              <td id="tdCountdown"><img src="images/signal.png">3 min</td>
+            </tr>
             <tr>
-              <td>Jackson Park Express</td>
-              <td class="resumes">N/A</td>
+              <td id="tdDirection">Eastbound<i class="fas fa-arrow-circle-right"></td>
+              <td id="tdTime">4:45 pm</td>
+              <td id="tdArrow"><i class="fas fa-chevron-right"></i></td>
             <tr>
-              <td>Reroute<img src="images/reroute.png"></td>
+              <td id="tdLocation">Randolph/Harbor Dr</td>
+              <td id="tdFrequency">every 20 minutes</td>
 
             <tr>
-              <th class="alert">4</th>
+              <td id="tdNumber">124</td>
+              <td id="tdCountdown"><img src="images/signal.png">4 min</th>
             <tr>
-              <td>Cottage Grove</td>
-              <td class="resumes">Resumes<br>12:10 am</td>
+              <td id="tdDirection">Eastbound<i class="fas fa-arrow-circle-right"></td>
+              <td id="tdTime">4:46 pm</td>
+              <td id="tdArrow"><i class="fas fa-chevron-right"></i></td>
             <tr>
-              <td>Out of Service<img src="images/out-of-service.png"></td>
+              <td id="tdLocation">Navy Pier</td>
+              <td id="tdFrequency">every 10 minutes</td>
 
             <tr>
-              <th class="alert">20</th>
+              <td id="tdNumber">151</td>
+              <td id="tdCountdown"><img src="images/signal.png">5 min</td>
             <tr>
-              <td>Madison</td>
-              <td class="resumes">Resumes<br>12:10 am</td>
+              <td id="tdDirection">Northbound<i class="fas fa-arrow-circle-right"></td>
+              <td id="tdTime">4:47 pm</td>
+              <td id="tdArrow"><i class="fas fa-chevron-right"></i></td>
             <tr>
-              <td>Out of Service<img src="images/out-of-service.png"></td>
+              <td id="tdLocation">Devon/Clark</td>
+              <td id="tdTime">every 16 minutes</td>
 
             <tr>
-              <th class="alert">157</th>
+              <td id="tdNumber">J14</td>
+              <td id="tdCountdown"><img src="images/signal.png">6 min</td>
             <tr>
-              <td>Streeterville/Taylor</td>
-              <td class="resumes">Resumes<br>12:10 am</td>
+              <td id="tdDirection">Southbound<i class="fas fa-arrow-circle-right"></td>
+              <td id="tdTime">4:48 pm</td>
+              <td id="tdArrow"><i class="fas fa-chevron-right"></i></td>
             <tr>
-              <td>Out of Service<img src="images/out-of-service.png"></td>
+              <td id="tdLocation">103rd/Stony Island</td>
+              <td id="tdFrequency">every 15 minutes</td>
+
+            <tr>
+              <td id="tdNumber">124</td>
+              <td id="tdCountdown"><img src="images/signal.png">10 min</th>
+            <tr>
+              <td id="tdDirection">Southbound<i class="fas fa-arrow-circle-right"></td>
+              <td id="tdTime">5:52 pm</td>
+              <td id="tdArrow"><i class="fas fa-chevron-right"></i></td>
+            <tr>
+              <td id="tdLocationlast">Navy Pier</td>
+              <td id="tdFrequencylast">every 10 minutes</td>
+      </table>
+
+      <br>
+      <table class="service-alerts">
+          <caption>Service Alerts</caption>
+            <tbody>
+              <tr>
+                <td id="tdNumber2">6x</td>
+              </tr>
+              <tr>
+                <td id="tdLocation">Jackson Park Express</td>
+                <td id="tdResult">N/A</td>
+              </tr>
+              <tr>
+                <td id="tdAlert">Reroute<img src="images/reroute.png"></td>
+              </tr>
+
+              <tr>
+                <td id="tdNumber2">4</td>
+              </tr>
+              <tr>
+                <td id="tdLocation">Cottage Grove</td>
+                <td id="tdResult">Resumes</td>
+              </tr>
+              <tr>
+                <td id="tdAlert">Out of Service<img src="images/out-of-service.png"></td>
+                <td id="tdResult">12:10 am</td>
+              </tr>
+
+              <tr>
+                <td id="tdNumber2">20</td>
+              </tr>
+              <tr>
+                <td id="tdLocation">Madison</td>
+                <td id="tdResult">Resumes</td>
+              </tr>
+              <tr>
+                <td id="tdAlert">Out of Service<img src="images/out-of-service.png"></td>
+                <td id="tdResult">12:10 am</td>
+              </tr>
+
+              <tr>
+                <td id="tdNumber2">157</td>
+              </tr>
+              <tr>
+                <td id="tdLocation">Streeterville/Taylor</td>
+                <td id="tdResult">Resumes</td>
+              </tr>
+              <tr>
+                <td id="tdAlertlast">Out of Service<img src="images/out-of-service.png"></td>
+                <td id="tdResultlast">6:00 am</td>
+              </tr>
           </table>
 
-  </section>
-</body>
+        </section>
+      </body>
 </html>
