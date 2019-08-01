@@ -9,16 +9,23 @@
   outline: none;
 }
 
+@font-face {
+
+}
+
 body {
   background-color: white;
   overflow: hidden;
-  font-size: 12px;
-  font-family: sf pro display;
+  font-family: '.SFNSDisplay-Regular', sans-serif;
   font-weight: 500;
+  font-size: 12px;
   letter-spacing: 1px;
   display: block;
   width: 375px;
   height: 1140px;
+  position: relative;
+  margin: auto;
+  overflow: scroll;
 }
 
 #status ul {
@@ -33,7 +40,7 @@ body {
   height: 10px;
 }
 
-#nav ul {
+header ul {
   list-style-type: none;
   margin-left: 0px;
   margin-right: 6px;
@@ -45,7 +52,7 @@ body {
   height: 20px;
 }
 
-#nav li {
+header li {
     margin-left: 8.5px;
     margin-right: 9px;
 }
@@ -139,7 +146,7 @@ table.bus-information caption, table.service-alerts caption {
   font-size: 22px;
   font-weight: bold;
   text-align: right;
-  padding-right: 20px;
+  padding-right: 14px;
   padding-top: 12px;
 }
 
@@ -155,18 +162,23 @@ table.bus-information caption, table.service-alerts caption {
   color: #808080;
 }
 
-#tdTime, #tdFrequency, #tdResult, #tdResultlast, #tdFrequencylast {
+#tdTime, #tdFrequency, #tdResult, #tdResultlast, #tdFrequencylast, #tdNoResult {
   font-size: 12px;
   text-align: right;
-  padding-right: 20px;
+  padding-right: 14px;
   color: #808080;
   font-family: sf pro display;
 }
 
 #tdResult, #tdResultlast {
-  padding-right: 42px;
+  padding-right: 39px;
+  padding-top: 16px;
 }
 
+#tdNoResult {
+  padding-right: 39px;
+  padding-top: 22px;
+}
 
 #tdLocation, #tdLocationlast, #tdLocation2 {
   padding-left: 15px;
@@ -174,17 +186,22 @@ table.bus-information caption, table.service-alerts caption {
   font-family: SF Pro Display;
 }
 
-#tdArrow {
+
+
+.fa-chevron-right {
   padding-right: 12px;
   color: #808080;
+  margin-top: 36.5px;
+  margin-bottom: 24.5px;
 }
+
 
 #tdResultlast, #tdAlertlast, #tdLocationlast, #tdFrequencylast {
   padding-bottom: 15px;
   margin-bottom: 5px;
 }
 
-#tdLocation, #tdFrequency, #tdArrow, #tdResult, #tdAlert {
+#tdLocation, #tdFrequency, #tdArrow, #tdResult, #tdAlert, #tdNoResult {
   padding-bottom: 12px;
   border-bottom: 1px solid #DCDCDC;
 }

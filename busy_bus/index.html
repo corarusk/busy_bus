@@ -11,37 +11,39 @@
 
   <body>
     <section class="navigation">
-      <div id="status">
+      <nav id="status">
         <ul>
           <li><img src="images/time-style.png"></li>
           <li><img src="images/status-icons.png"></li>
-      </div>
-      <div id="nav">
+      </nav>
+
+      <header>
         <ul>
           <li><img src="images/chevron-left.png"></li>
           <li><h1>Washington & State</h1></li>
           <li><img src="images/search.png"></li>
-      </div>
+      </header>
 
-      <div>
-        <img class="map" src="images/map.png">
-      </div>
+      <img class="map" src="images/map.png">
+    </section>
+
 
     <section class="container">
-      <div class="rectangle"></div>
+      <figure class="rectangle"></figure>
 
-      <div id="main">
+    
       <table class="bus-information">
           <caption>Next Arrivals</caption>
           <tbody>
+          <col span="3">
             <tr>
               <td id="tdNumber">60</td>
               <td id="tdCountdown"><img src="images/signal.png">3 min</td>
+              <td rowspan="3" id="tdArrow"><i class="fas fa-chevron-right"></i></td>
             </tr>
             <tr>
               <td id="tdDirection">Eastbound<i class="fas fa-arrow-circle-right"></td>
               <td id="tdTime">4:45 pm</td>
-              <td rowspan="2" id="tdArrow"><i class="fas fa-chevron-right"></i></td>
             <tr>
               <td id="tdLocation">Randolph/Harbor Dr</td>
               <td id="tdFrequency">every 20 minutes</td>
@@ -49,11 +51,12 @@
 
             <tr>
               <td id="tdNumber">124</td>
-              <td id="tdCountdown"><img src="images/signal.png">4 min</th>
+              <td id="tdCountdown"><img src="images/signal.png">4 min</td>
+              <td rowspan="3" id="tdArrow"><i class="fas fa-chevron-right"></i></td>
             <tr>
               <td id="tdDirection">Eastbound<i class="fas fa-arrow-circle-right"></td>
               <td id="tdTime">4:46 pm</td>
-              <td rowspan="2" id="tdArrow"><i class="fas fa-chevron-right"></i></td>
+
             <tr>
               <td id="tdLocation">Navy Pier</td>
               <td id="tdFrequency">every 10 minutes</td>
@@ -61,10 +64,10 @@
             <tr>
               <td id="tdNumber">151</td>
               <td id="tdCountdown"><img src="images/signal.png">5 min</td>
+              <td rowspan="3" id="tdArrow"><i class="fas fa-chevron-right"></i></td>
             <tr>
               <td id="tdDirection">Northbound<i class="fas fa-arrow-circle-right"></td>
               <td id="tdTime">4:47 pm</td>
-              <td rowspan="2" id="tdArrow"><i class="fas fa-chevron-right"></i></td>
             <tr>
               <td id="tdLocation">Devon/Clark</td>
               <td id="tdFrequency">every 16 minutes</td>
@@ -72,10 +75,10 @@
             <tr>
               <td id="tdNumber">J14</td>
               <td id="tdCountdown"><img src="images/signal.png">6 min</td>
+              <td rowspan="3" id="tdArrow"><i class="fas fa-chevron-right"></i></td>
             <tr>
               <td id="tdDirection">Southbound<i class="fas fa-arrow-circle-right"></td>
               <td id="tdTime">4:48 pm</td>
-              <td rowspan="2" id="tdArrow"><i class="fas fa-chevron-right"></i></td>
             <tr>
               <td id="tdLocation">103rd/Stony Island</td>
               <td id="tdFrequency">every 15 minutes</td>
@@ -83,10 +86,10 @@
             <tr>
               <td id="tdNumber">124</td>
               <td id="tdCountdown"><img src="images/signal.png">10 min</th>
+              <td rowspan="3" id="tdArrow"><i class="fas fa-chevron-right"></i></td>
             <tr>
               <td id="tdDirection">Southbound<i class="fas fa-arrow-circle-right"></td>
               <td id="tdTime">5:52 pm</td>
-              <td rowspan="2" id="tdArrow"><i class="fas fa-chevron-right"></i></td>
             <tr>
               <td id="tdLocationlast">Navy Pier</td>
               <td id="tdFrequencylast">every 10 minutes</td>
@@ -96,12 +99,13 @@
       <table class="service-alerts">
           <caption>Service Alerts</caption>
             <tbody>
+            <col span="2">
               <tr>
                 <td id="tdNumber2">6x</td>
+                <td rowspan="3" id="tdNoResult">N/A</td>
               </tr>
               <tr>
                 <td id="tdLocation2">Jackson Park Express</td>
-                <td rowspan="2" id="tdResult">N/A</td>
               </tr>
               <tr>
                 <td id="tdAlert">Reroute<img src="images/reroute.png"></td>
@@ -109,10 +113,10 @@
 
               <tr>
                 <td id="tdNumber2">4</td>
+                  <td rowspan="3" id="tdResult">Resumes<br>12:10 am</td>
               </tr>
               <tr>
                 <td id="tdLocation2">Cottage Grove</td>
-                <td rowspan="2" id="tdResult">Resumes<br>12:10 am</td>
               </tr>
               <tr>
                 <td id="tdAlert">Out of Service<img src="images/out-of-service.png"></td>
@@ -120,10 +124,10 @@
 
               <tr>
                 <td id="tdNumber2">20</td>
+                <td rowspan="3" id="tdResult">Resumes<br>12:10 am</td>
               </tr>
               <tr>
                 <td id="tdLocation2">Madison</td>
-                <td rowspan="2" id="tdResult">Resumes<br>12:10 am</td>
               </tr>
               <tr>
                 <td id="tdAlert">Out of Service<img src="images/out-of-service.png"></td>
@@ -131,16 +135,15 @@
 
               <tr>
                 <td id="tdNumber2">157</td>
+                <td rowspan="3" id="tdResultlast">Resumes<br>6:00 am</td>
               </tr>
               <tr>
                 <td id="tdLocation2">Streeterville/Taylor</td>
-                <td rowspan="2" id="tdResultlast">Resumes<br>6:00 am</td>
               </tr>
               <tr>
                 <td id="tdAlertlast">Out of Service<img src="images/out-of-service.png"></td>
               </tr>
           </table>
-
         </section>
       </body>
 </html>
