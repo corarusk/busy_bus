@@ -43,6 +43,35 @@ h1 {
   font-size: 22px;
 }
 
+#status {
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+  border: 0;
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
+  height: 10px;
+}
+
+header ul {
+  list-style-type: none;
+  margin-left: 0px;
+  margin-right: 6px;
+  padding: 0;
+  border: 0;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+}
+
+header li {
+    margin-left: 8.5px;
+    margin-right: 9px;
+}
+
 .navigation {
   background-color: black;
   width: 375px;
@@ -57,11 +86,13 @@ h1 {
   background-repeat: no-repeat;
 }
 
+
+
   /* White background */
 .container {
   position: absolute;
   width: 375px;
-  height: 875px;
+  height: 870px;
   left: 0%;
   right: 0%;
   top: 300px;
@@ -69,7 +100,6 @@ h1 {
   background: #ffffff;
   box-shadow: 0px -15px 10px rgba(0, 0, 0, 0.161);
 }
-
 
 /* slide up */
 .rectangle {
@@ -81,16 +111,15 @@ h1 {
 }
 
 
+
 /* bus information */
 ol {
-  width: 355px;
   background-color: #fafafa;
   margin-left: 10px;
   margin-right: 10px;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: float;
 }
 
 h2 {
@@ -98,24 +127,71 @@ h2 {
   margin-top: 23px;
   margin-bottom: 11px;
   font-weight: 800;
-  font-size: 1em;
+  font-size: 1.2em;
+  margin-left: 10px;
 }
 
-#Number, #Number2 {
-  padding-left: 15px;
+.nextArrivals, .serviceAlerts {
+  background-color: #fafafa;
+  border-radius: 20px;
+  height: 400px;
+  width: 355px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.serviceAlerts {
+  height: 320px;
+}
+
+
+.row {
+  height: 78px;
+  border-bottom: 1px solid #DADADA;
+  width: 100%;
+}
+
+
+.leftSide {
+  height: 77px;
+  text-align: left;
+  display: inline-block;
+  float: left;
+  width: 160px;
+}
+
+.rightSide {
+  height: 77px;
+  text-align: right;
+  display: inline;
+  float: left;
+  width: 160px;
+}
+
+.Result, .noResult {
+  padding-bottom: 30px;
+  padding-top: 33px;
+  margin-right: 24px;
+  height: 77px;
+}
+
+.Result {
+  padding-top: 25px;
+}
+
+.Number, .Number2 {
+  padding-left: 10px;
   padding-top: 12px;
   font-size: 22px;
   font-weight: bold;
   text-align: left;
 }
 
-
-
-#Number2 {
+.Number2 {
   color: rgba(255, 0, 0, 0.65);
 }
 
-#Countdown {
+.Countdown {
   font-size: 22px;
   font-weight: bold;
   text-align: right;
@@ -123,56 +199,43 @@ h2 {
   padding-top: 12px;
 }
 
-#Direction, #Alert, #Alertlast {
-  padding-left: 15px;
+.Direction, .Alert {
+  padding-left: 10px;
   font-size: 12px;
   font-weight: bold;
   text-align: left;
-  font-family: sf pro text;
 }
 
-#Alert, #Alertlast {
+
+.Alert {
   color: #808080;
 }
 
-#Time, #Frequency, #Result, #Resultlast, #Frequencylast, #NoResult {
+
+.Time, .Frequency, .Result, .noResult {
   font-size: 12px;
   text-align: right;
   padding-right: 14px;
   color: #808080;
-  font-family: sf pro display;
 }
 
-#Result, #Resultlast {
-  padding-right: 39px;
-  padding-top: 16px;
-}
 
-#NoResult {
-  padding-right: 39px;
-  padding-top: 22px;
-}
-
-#Location, #Locationlast, #Location2 {
-  padding-left: 15px;
+.Location, .Location2 {
+  padding-left: 10px;
   color: #808080;
-  font-family: SF Pro Display;
 }
-
 
 .fa-chevron-right {
-  padding-right: 12px;
-  color: #808080;
-  margin-top: 36.5px;
-  margin-bottom: 24.5px;
-}
+    display: inline-block;
+    float: right;
+    color: #808080;
+    padding-top: 32px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    height: 77px;
+  }
 
-
-#Resultlast, #Alertlast, #Locationlast, #Frequencylast {
-  padding-bottom: 15px;
-  margin-bottom: 5px;
-}
-
-#Location, #Frequency, #Arrow, #Result, #Alert, #NoResult {
-  padding-bottom: 12px;
-}
+  .fa-chevron-left, .fa-search {
+    color: white;
+  }
