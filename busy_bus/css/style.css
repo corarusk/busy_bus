@@ -28,34 +28,6 @@ body {
   overflow: scroll;
 }
 
-#status ul {
-  list-style-type: none;
-  margin-left: 0;
-  margin-right: 10px;
-  padding: 0;
-  border: 0;
-  display: flex;
-  padding-top: 10px;
-  justify-content: space-between;
-  height: 10px;
-}
-
-header ul {
-  list-style-type: none;
-  margin-left: 0px;
-  margin-right: 6px;
-  padding: 0;
-  border: 0;
-  margin-top: 40px;
-  display: flex;
-  justify-content: space-between;
-  height: 20px;
-}
-
-header li {
-    margin-left: 8.5px;
-    margin-right: 9px;
-}
 
 /* Washington & State */
 h1 {
@@ -110,25 +82,26 @@ h1 {
 
 
 /* bus information */
-table.bus-information, table.service-alerts {
+ol {
   width: 355px;
-  border-collapse: collapse;
-  border-style: hidden;
   background-color: #fafafa;
   margin-left: 10px;
   margin-right: 10px;
-  border-radius: 10px;
-  border-spacing: 23px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: float;
 }
 
-table.bus-information caption, table.service-alerts caption {
+h2 {
   text-align: left;
   margin-top: 23px;
   margin-bottom: 11px;
   font-weight: 800;
+  font-size: 1em;
 }
 
-#tdNumber, #tdNumber2 {
+#Number, #Number2 {
   padding-left: 15px;
   padding-top: 12px;
   font-size: 22px;
@@ -138,11 +111,11 @@ table.bus-information caption, table.service-alerts caption {
 
 
 
-#tdNumber2 {
+#Number2 {
   color: rgba(255, 0, 0, 0.65);
 }
 
-#tdCountdown {
+#Countdown {
   font-size: 22px;
   font-weight: bold;
   text-align: right;
@@ -150,7 +123,7 @@ table.bus-information caption, table.service-alerts caption {
   padding-top: 12px;
 }
 
-#tdDirection, #tdAlert, #tdAlertlast {
+#Direction, #Alert, #Alertlast {
   padding-left: 15px;
   font-size: 12px;
   font-weight: bold;
@@ -158,11 +131,11 @@ table.bus-information caption, table.service-alerts caption {
   font-family: sf pro text;
 }
 
-#tdAlert, #tdAlertlast {
+#Alert, #Alertlast {
   color: #808080;
 }
 
-#tdTime, #tdFrequency, #tdResult, #tdResultlast, #tdFrequencylast, #tdNoResult {
+#Time, #Frequency, #Result, #Resultlast, #Frequencylast, #NoResult {
   font-size: 12px;
   text-align: right;
   padding-right: 14px;
@@ -170,22 +143,21 @@ table.bus-information caption, table.service-alerts caption {
   font-family: sf pro display;
 }
 
-#tdResult, #tdResultlast {
+#Result, #Resultlast {
   padding-right: 39px;
   padding-top: 16px;
 }
 
-#tdNoResult {
+#NoResult {
   padding-right: 39px;
   padding-top: 22px;
 }
 
-#tdLocation, #tdLocationlast, #tdLocation2 {
+#Location, #Locationlast, #Location2 {
   padding-left: 15px;
   color: #808080;
   font-family: SF Pro Display;
 }
-
 
 
 .fa-chevron-right {
@@ -196,12 +168,11 @@ table.bus-information caption, table.service-alerts caption {
 }
 
 
-#tdResultlast, #tdAlertlast, #tdLocationlast, #tdFrequencylast {
+#Resultlast, #Alertlast, #Locationlast, #Frequencylast {
   padding-bottom: 15px;
   margin-bottom: 5px;
 }
 
-#tdLocation, #tdFrequency, #tdArrow, #tdResult, #tdAlert, #tdNoResult {
+#Location, #Frequency, #Arrow, #Result, #Alert, #NoResult {
   padding-bottom: 12px;
-  border-bottom: 1px solid #DCDCDC;
 }
