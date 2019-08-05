@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>UI Design Busy Bus</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <section class="navigation">
+      <nav id="status">
+        <svg width="354" height="13" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.346 5.624c0 3.523-1.656 5.64-4.41 5.64-2.006 0-3.574-1.18-3.867-2.93h2.19c.19.718.872 1.172 1.707 1.172 1.435 0 2.278-1.362 2.27-3.662h-.132C6.621 6.84 5.64 7.396 4.41 7.396 2.402 7.396.93 5.924.93 3.903.93 1.713 2.607.16 4.973.16c2.68 0 4.373 2.014 4.373 5.464zm-6.27-1.787c0 1.128.784 1.919 1.912 1.919s1.919-.798 1.919-1.882c0-1.106-.806-1.963-1.912-1.963-1.106 0-1.919.842-1.919 1.926zm10.98-.725c0 .718-.506 1.238-1.297 1.238-.784 0-1.297-.52-1.297-1.238 0-.725.513-1.245 1.297-1.245.79 0 1.296.52 1.296 1.245zm0 5.2c0 .718-.506 1.238-1.297 1.238-.784 0-1.297-.52-1.297-1.238 0-.725.513-1.245 1.297-1.245.79 0 1.296.52 1.296 1.245zM23.48 11h-2.109V9.06h-5.17V7.322A120.976 120.976 0 0 1 20.382.431h3.098v6.856h1.385v1.772H23.48V11zm-2.175-8.892a91.34 91.34 0 0 0-3.12 5.12v.117h3.237V2.108h-.117zM31.34 11h-2.212V2.519h-.131L26.404 4.32V2.328L29.136.431h2.204V11zm282.6.943a.346.346 0 0 0 .36-.069l2.159-2.016a.306.306 0 0 0 .073-.353.317.317 0 0 0-.08-.103 3.869 3.869 0 0 0-2.384-.81c-.874 0-1.718.287-2.385.81a.316.316 0 0 0-.081.102.298.298 0 0 0-.031.124.299.299 0 0 0 .101.23l2.159 2.016c.031.03.068.053.109.069zm3.684-3.599a.354.354 0 0 0 .468-.006l1.243-1.167a.317.317 0 0 0 .102-.23.317.317 0 0 0-.108-.229c-1.43-1.232-3.31-1.918-5.263-1.918-1.953 0-3.833.686-5.263 1.918a.32.32 0 0 0-.103.23.32.32 0 0 0 .103.23l1.246 1.166a.35.35 0 0 0 .237.091.35.35 0 0 0 .231-.085 5.531 5.531 0 0 1 3.554-1.271c1.314 0 2.58.453 3.553 1.271zm2.972-2.622c.04.015.082.022.125.022a.35.35 0 0 0 .241-.091l1.248-1.165a.307.307 0 0 0 .102-.229.321.321 0 0 0-.108-.228c-2.19-1.944-5.105-3.029-8.138-3.029-3.033 0-5.948 1.085-8.138 3.029a.318.318 0 0 0-.102.228.318.318 0 0 0 .102.228l1.242 1.166a.36.36 0 0 0 .469.004c1.733-1.527 4.034-2.379 6.425-2.379 2.392 0 4.693.852 6.426 2.379.03.028.066.05.106.065zm10.025-4.719c-1.589 0-2.878 1.194-2.878 2.667v5.999c0 1.473 1.289 2.667 2.878 2.667h17.988c1.59 0 2.878-1.194 2.878-2.667V3.67c0-1.473-1.288-2.667-2.878-2.667h-17.988zm21.946 7.667v-4c.424.166.787.444 1.042.8.255.355.391.773.391 1.2 0 .427-.136.845-.391 1.2a2.314 2.314 0 0 1-1.042.8zm-53.245 3.334h-1.08c-.286 0-.56-.105-.763-.293a.966.966 0 0 1-.316-.707V2.337c0-.265.114-.52.316-.707.203-.188.477-.293.763-.293h1.08c.286 0 .56.105.763.293a.966.966 0 0 1 .316.707v8.667c0 .265-.114.52-.316.707a1.125 1.125 0 0 1-.763.293zm-5.037 0h-1.08c-.286 0-.56-.105-.763-.293a.966.966 0 0 1-.316-.707V4.671c0-.265.114-.52.316-.707.203-.188.477-.293.763-.293h1.08c.286 0 .56.105.763.293a.966.966 0 0 1 .316.707v6.333c0 .265-.114.52-.316.707a1.123 1.123 0 0 1-.762.293h-.001zm-5.037 0h-1.08c-.286 0-.561-.105-.763-.293a.966.966 0 0 1-.316-.707v-4c0-.265.114-.52.316-.707.202-.188.477-.293.763-.293h1.08c.286 0 .56.105.763.293a.966.966 0 0 1 .316.707v4c0 .265-.114.52-.316.707a1.125 1.125 0 0 1-.763.293zm-5.036 0h-1.08c-.286 0-.561-.105-.763-.293a.966.966 0 0 1-.316-.707v-2c0-.265.114-.52.316-.707.202-.188.477-.293.763-.293h1.08c.286 0 .56.105.763.293a.966.966 0 0 1 .316.707v2c0 .265-.114.52-.316.707a1.125 1.125 0 0 1-.763.293z" fill="#fff"/></svg>
+      </nav>
+
+      <header>
+        <ul>
+          <li><i class="fas fa-chevron-left fa-2x"></i></li>
+          <li><h1>Washington & State</h1></li>
+          <li><i class="fas fa-search fa-2x"></i></li>
+        </ul>
+      </header>
+
+      <img class="map" src="images/map.png" alt="map">
+    </section>
+
+
+    <section class="container">
+      <figure class="rectangle"></figure>
+
+
+      <h2>Next Arrivals</h2>
+      <section class="nextArrivals">
+            <div class="row">
+            <ol class="leftSide">
+              <li class="Number">60</li>
+              <li class="Direction">Eastbound<i class="fas fa-arrow-circle-right"></i></li>
+              <li class="Location">Randolph/Harbor Dr</li>
+            </ol>
+            <ol class="rightSide">
+              <li class="Countdown"><img src="images/signal.png">3 min</li>
+              <li class="Time">4:45 pm</li>
+              <li class="Frequency">every 20 minutes</li>
+            </ol>
+            <i class="fas fa-chevron-right"></i>
+            </div>
+
+            <div class="row">
+            <ol class="leftSide">
+              <li class="Number">124</li>
+              <li class="Direction">Eastbound<i class="fas fa-arrow-circle-right"></i></li>
+              <li class="Location">Navy Pier</li>
+            </ol>
+            <ol class="rightSide">
+              <li class="Countdown"><img src="images/signal.png">4 min</li>
+              <li class="Time">4:46 pm</li>
+              <li class="Frequency">every 10 minutes</li>
+            </ol>
+            <i class="fas fa-chevron-right"></i>
+            </div>
+
+            <div class="row">
+            <ol class="leftSide">
+              <li class="Number">151</li>
+              <li class="Direction">Northbound<i class="fas fa-arrow-circle-right"></i></li>
+              <li class="Location">Devon/Clark</li>
+            </ol>
+            <ol class="rightSide">
+              <li class="Countdown"><img src="images/signal.png">5 min</li>
+              <li class="Time">4:47 pm</li>
+              <li class="Frequency">every 16 minutes</li>
+            </ol>
+            <i class="fas fa-chevron-right"></i>
+            </div>
+
+            <div class="row">
+            <ol class="leftSide">
+              <li class="Number">J14</li>
+              <li class="Direction">Southbound<i class="fas fa-arrow-circle-right"></i></li>
+              <li class="Location">103rd/Stony Island</li>
+            </ol>
+            <ol class="rightSide">
+              <li class="Countdown"><img src="images/signal.png">6 min</li>
+              <li class="Time">4:48 pm</li>
+              <li class="Frequency">every 15 minutes</li>
+            </ol>
+            <i class="fas fa-chevron-right"></i>
+            </div>
+
+            <div class="lastRow">
+            <ol class="leftSide">
+              <li class="Number">124</li>
+              <li class="Direction">Southbound<i class="fas fa-arrow-circle-right"></i></li>
+              <li class="Location">Navy Pier</li>
+            </ol>
+            <ol class="rightSide">
+              <li class="Countdown"><img src="images/signal.png">10 min</li>
+              <li class="Time">5:52 pm</li>
+              <li class="Frequency">every 10 minutes</li>
+            </ol>
+            <i class="fas fa-chevron-right"></i>
+            </div>
+          </section>
+
+
+
+          <br><h2>Service Alerts</h2>
+          <section class="serviceAlerts">
+            <div class="row">
+            <ol class="leftSide">
+                <li class="Number2">6x</li>
+                <li class="Location2">Jackson Park Express</li>
+                <li class="Alert">Reroute<i class="fas fa-exchange-alt"></i></li>
+            </ol>
+            <ol class="RightSide">
+                <li class="noResult">N/A</li>
+            </ol>
+            </div>
+
+            <div class="row">
+            <ol class="leftSide">
+                <li class="Number2">4</li>
+                <li class="Location2">Cottage Grove</li>
+                <li class="Alert">Out of Service<svg width="9" height="9" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="4.5" cy="4.5" r="3.75" stroke="#000" stroke-opacity=".5" stroke-width="1.5"/><path stroke="#000" stroke-opacity=".5" stroke-width="1.5" d="M1.47 7.47l6-6"/></svg></li>
+            </ol>
+            <ol class="RightSide">
+                <li class="Result">Resumes<br>12:10 am</li>
+            </ol>
+            </div>
+
+            <div class="row">
+            <ol class="leftSide">
+                <li class="Number2">20</li>
+                <li class="Location2">Madison</li>
+                <li class="Alert">Out of Service<svg width="9" height="9" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="4.5" cy="4.5" r="3.75" stroke="#000" stroke-opacity=".5" stroke-width="1.5"/><path stroke="#000" stroke-opacity=".5" stroke-width="1.5" d="M1.47 7.47l6-6"/></svg></li>
+            </ol>
+            <ol class="RightSide">
+                <li class="Result">Resumes<br>12:10 am</li>
+            </ol>
+            </div>
+
+            <div class="lastRow">
+            <ol class="leftSide">
+                <li class="Number2">157</li>
+                <li class="Location2">Streeterville/Taylor</li>
+                <li class="Alert">Out of Service<svg width="9" height="9" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="4.5" cy="4.5" r="3.75" stroke="#000" stroke-opacity=".5" stroke-width="1.5"/><path stroke="#000" stroke-opacity=".5" stroke-width="1.5" d="M1.47 7.47l6-6"/></svg></li>
+            </ol>
+            <ol class="RightSide">
+                <li class="Result">Resumes<br>6:00 am</li>
+            </ol>
+            </div>
+          </section>
+        </section>
+      </body>
+</html>

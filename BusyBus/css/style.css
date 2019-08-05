@@ -1,0 +1,241 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+@font-face {
+
+}
+
+body {
+  background-color: white;
+  overflow: hidden;
+  font-family: '.SFNSDisplay-Regular', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: block;
+  width: 375px;
+  height: 1140px;
+  position: relative;
+  margin: auto;
+  overflow: scroll;
+}
+
+
+/* Washington & State */
+h1 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  color: white;
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+#status {
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+  border: 0;
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
+  height: 10px;
+}
+
+header ul {
+  list-style-type: none;
+  margin-left: 0px;
+  margin-right: 6px;
+  padding: 0;
+  border: 0;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+}
+
+header li {
+    margin-left: 8.5px;
+    margin-right: 9px;
+}
+
+.navigation {
+  background-color: black;
+  width: 375px;
+  height: 92.67px;
+}
+
+.map {
+  margin-top: 20px;
+  height: 300px;
+  width: 375px;
+  padding: 0;
+  background-repeat: no-repeat;
+}
+
+
+
+  /* White background */
+.container {
+  position: absolute;
+  width: 375px;
+  height: 870px;
+  left: 0%;
+  right: 0%;
+  top: 300px;
+  bottom: 8.78%;
+  background: #ffffff;
+  box-shadow: 0px -15px 10px rgba(0, 0, 0, 0.161);
+}
+
+/* slide up */
+.rectangle {
+  width: 35px;
+  height: 1.89px;
+  background: #CCCCCC;
+  margin-left: 170px;
+  margin-top: 10px;
+}
+
+
+
+/* bus information */
+ol {
+  background-color: #fafafa;
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: left;
+  margin-top: 23px;
+  margin-bottom: 11px;
+  font-weight: 800;
+  font-size: 1.2em;
+  margin-left: 10px;
+}
+
+.nextArrivals, .serviceAlerts {
+  background-color: #fafafa;
+  border-radius: 20px;
+  height: 400px;
+  width: 355px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.serviceAlerts {
+  height: 320px;
+}
+
+
+.row {
+  height: 78px;
+  border-bottom: 1px solid #DADADA;
+  width: 100%;
+}
+
+
+.leftSide {
+  height: 77px;
+  text-align: left;
+  display: inline-block;
+  float: left;
+  width: 160px;
+}
+
+.rightSide {
+  height: 77px;
+  text-align: right;
+  display: inline;
+  float: left;
+  width: 160px;
+}
+
+.Result, .noResult {
+  padding-bottom: 30px;
+  padding-top: 33px;
+  margin-right: 24px;
+  height: 77px;
+}
+
+.Result {
+  padding-top: 25px;
+}
+
+.Number, .Number2 {
+  padding-left: 10px;
+  padding-top: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.Number2 {
+  color: rgba(255, 0, 0, 0.65);
+}
+
+.Countdown {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 14px;
+  padding-top: 12px;
+}
+
+.Direction, .Alert {
+  padding-left: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+.Alert {
+  color: #808080;
+}
+
+
+.Time, .Frequency, .Result, .noResult {
+  font-size: 12px;
+  text-align: right;
+  padding-right: 14px;
+  color: #808080;
+}
+
+
+.Location, .Location2 {
+  padding-left: 10px;
+  color: #808080;
+}
+
+.fa-chevron-right {
+    display: inline-block;
+    float: right;
+    color: #808080;
+    padding-top: 32px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    height: 77px;
+  }
+
+  .fa-chevron-left, .fa-search {
+    color: white;
+  }
